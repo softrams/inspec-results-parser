@@ -1,6 +1,14 @@
 # Simple inspec results parser
 
-Simple inspec results parser to produce a summary at control level tests summary.
+Simple inspec results parser to produce a summary of controls by status along with aggregated tests with the same status under those controls.
+
+When reviewing results from an inspec run, it will be useful to look at
+
+- Total number of controls passed/failed and skipped
+- Total number of tests passed/failed and skipped and
+- Total number of tests aggregated by passed/failed/skipped controls
+
+Please see the background discussion and usecase for this level of summary information at https://github.com/mitre/heimdall-lite/issues/216.
 
 ## Requirements
 
