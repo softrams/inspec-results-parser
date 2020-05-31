@@ -1,11 +1,12 @@
 {
   "name": "@softrams/inspec-results-parser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple parser to parse inspec results in JSON format and produce a summary at control/test level",
   "main": "index.js",
   "scripts": {
     "test": "yarn test"
   },
+  "bin": "./index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/softrams/inspec-results-parser.git"

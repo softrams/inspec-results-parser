@@ -1,8 +1,9 @@
+#!/usr/bin/env node
 const fs = require("fs");
 let verbose = false;
 async function parseFile(filename) {
   var obj;
-  fs.readFile(filename, "utf8", function(err, data) {
+  fs.readFile(filename, "utf8", function (err, data) {
     if (err) throw err;
     obj = JSON.parse(data);
     var overallResults = {
